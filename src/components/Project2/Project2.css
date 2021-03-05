@@ -1,0 +1,159 @@
+.project2-container {
+    color: white;
+    background-color: black;
+    border: 1px solid rgba(0,0,0,0);
+    height: 82vh;
+}
+
+.project-text-div h2 {
+    font-size: 2vw;
+    font-family: helvectica;
+}
+
+.project2-main {
+    margin-top: 17vh;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.treeview-img {
+    width: 43vw;
+    height: 24.15vw;
+    margin-right: 8vw;
+}
+
+.project2-text-div {
+    width: 45vw;
+    font-size: 1.3vw;
+    margin-right: 5vw;
+    font-family: helvectica;
+    text-align: left;
+    margin-left: 2vw;
+}
+
+.project2-demo-btn {
+    height: 6vh;
+    width: 12vw;
+    margin: 3vh 0;
+    font-family: helvectica;
+    font-size: 1.2vw;
+    color: white;
+    text-transform: uppercase;
+    outline: none;
+    background-color: blue;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.2s;
+}
+
+.project2-demo-btn:hover {
+    color: blue;
+    background: white;
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .project2-main {
+        flex-direction: column;
+        margin-top: 12vh;
+    }
+    
+    .treeview-img {
+        margin-left: 4vw;
+        margin-right: 0;
+        width: 70vw;
+        height: 35vw;
+
+    }
+    
+    .project2-text-div {
+        margin-left: 4vw;
+        margin-top: 4vw;
+        font-size: 2.5vw;
+        width: 80vw;
+        
+    }
+    
+    .project2-demo-btn {
+        font-size: 1.8vw;
+        width: 17vw;
+        height: 4vh;
+    }
+    .project2-text-div h2 {
+        font-size: 4vw;
+    }
+    
+}
+
+@media screen and (max-width: 414px) and (min-height : 800px) {
+    
+    .project2-main {
+        flex-direction: column;
+        margin-top: 10vh;
+    }
+    
+    .treeview-img {
+        margin-left: 4vw;
+        margin-right: 0;
+        width: 70vw;
+        height: 40vw;
+    }
+    
+    .project2-text-div {
+        margin-left: 4vw;
+        margin-top: 4vw;
+        font-size: 2.8vw;
+        width: 80vw;
+        
+    }
+    
+    .project2-demo-btn {
+        font-size: 1.8vw;
+        width: 17vw;
+        letter-spacing: 0.6vw;
+        height: 4vh;
+    }
+
+    .project2-container {
+        /* min-height: 300px;
+        max-height: 520px; */
+    }
+    
+}
+
+@media screen and (max-width: 414px) {
+    .project2-main {
+        flex-direction: column;
+        margin-top: 10vh;
+    }
+    
+    .treeview-img {
+        margin-left: 4vw;
+        margin-right: 0;
+        width: 70vw;
+        height: 40vw;
+    }
+    
+    .project2-text-div {
+        margin-left: 4vw;
+        margin-top: 4vw;
+        font-size: 3.5vw;
+        width: 80vw;
+        
+    }
+    
+    .project2-demo-btn {
+        font-size: 1.8vw;
+        width: 17vw;
+        letter-spacing: 0.6vw;
+        height: 4vh;
+    }
+
+    .project2-container {
+        /* min-height: 300px; */
+    }   
+
+    .project2-text-div h2 {
+        font-size: 5vw;
+    }
+}

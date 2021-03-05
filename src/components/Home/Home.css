@@ -1,0 +1,131 @@
+.home-heading {
+    color: white;
+    width: fit-content;
+    /* border-bottom: 0.5vh solid white; */
+    font-family: helvectica;
+    font-size: 3vw;
+    /* margin: 5vh 2vw;
+    margin-right: 0; */
+
+}
+
+#project-btn {
+    margin-left: 0;
+}
+
+.home-container {
+    /* padding-top: 10vh; */
+    border: 1px solid rgba(0,0,0,0);
+    height: 82vh;
+}
+
+.home-description {
+    color: white;
+    width: 40vw;
+    text-align: left;
+    font-family: helvectica;
+    margin: 5vh 2vw;
+    padding-top: 15vh;
+    font-size: 1.3vw;
+}
+
+body {
+    background-color: black;
+    position: relative;
+    top: 18vh;
+    /* margin-top: 10vh; */
+    /* border: 1px solid white; */
+}
+
+
+
+.home-image {
+    width: 30vw;
+    margin-left: 15vw;
+}
+
+.home-main {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 1024px) {
+    .home-heading {
+        font-size: 5vw;
+        margin-left: 0;
+    }
+
+    .home-description {
+        margin-left: 4vw;
+        font-size: 2.5vw;
+        width: 80vw;
+        padding-top: 0;
+    }
+
+    .home-description h1 {
+        margin-left: 0;
+    }
+
+    .home-main {
+        flex-direction: column;
+    }
+
+    .home-image {
+        width: 40vw;
+        margin-left: 15vw;
+    }
+  }
+
+  @media screen and (max-width: 415px) and (min-height : 800px) {
+    .home-heading {
+        font-size: 5vw;
+        margin-left: 4vw;
+    }
+
+    .home-description {
+        margin-left: 4vw;
+        font-size: 3.9vw;
+        padding-top: 0;
+        width: 80vw;
+    }
+
+    .home-main {
+        flex-direction: column;
+    }
+
+    .home-image {
+        width: 34vw;
+        margin-left: 15vw;
+    }
+    .home-container {
+        /* min-height: 300px;
+        max-height: 520px; */
+    }
+  }
+
+  @media screen and (max-width: 415px) {
+    .home-heading {
+        font-size: 5vw;
+        margin-left: 4vw;
+    }
+
+    .home-description {
+        margin-left: 4vw;
+        font-size: 3.7vw;
+        padding-top: 0;
+        width: 80vw;
+    }
+
+    .home-main {
+        flex-direction: column;
+    }
+
+    .home-image {
+        width: 50vw;
+        margin-left: 15vw;
+    }
+    .home-container {
+        /* min-height: 300px; */
+    }
+  }
+

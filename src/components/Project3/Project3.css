@@ -1,0 +1,111 @@
+.project3-container {
+    color: white;
+    background-color: black;
+    border: 1px solid rgba(0,0,0,0);
+    height: 82vh;
+}
+
+.project3-main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 17vh;
+}
+
+.guide-img {
+    width: 40vw;
+    margin-left: 2vw;
+}
+
+.project3-text-div {
+    width: 45vw;
+    font-size: 1.3vw;
+    margin-left: 5vw;
+    font-family: helvectica;
+    text-align: left;
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .project3-main {
+        flex-direction: column;
+        margin-top: 2vh;
+    }
+    
+    .guide-img {
+        margin-left: 4vw;
+        margin-right: 0;
+        width: 70vw;
+
+    }
+    
+    .project3-text-div {
+        margin-left: 4vw;
+        margin-top: 4vw;
+        font-size: 2.5vw;
+        width: 80vw;
+        
+    }
+    
+    .project3-demo-btn {
+        font-size: 1.8vw;
+        width: 17vw;
+        height: 4vh;
+    }
+    
+}
+
+@media screen and (max-width: 414px) and (min-height : 800px) {
+    
+    .project3-main {
+        flex-direction: column;
+        margin-top: 5vh;
+    }
+    
+    .guide-img {
+        margin-left: 4vw;
+        margin-right: 0;
+        width: 70vw;
+
+    }
+    
+    .project3-text-div {
+        margin-left: 4vw;
+        margin-top: 4vw;
+        font-size: 2.8vw;
+        width: 80vw;
+        
+    }
+
+    .project3-container {
+        /* min-height: 300px;
+        max-height: 520px; */
+    }
+}
+
+@media screen and (max-width: 414px) {
+    
+    .project3-main {
+        flex-direction: column;
+        margin-top: 5vh;
+    }
+    
+    .guide-img {
+        margin-left: 4vw;
+        margin-right: 0;
+        width: 70vw;
+
+    }
+    
+    .project3-text-div {
+        margin-left: 4vw;
+        margin-top: 4vw;
+        font-size: 3.5vw;
+        width: 80vw;
+        
+    }
+
+    .project3-container {
+        /* min-height: 300px; */
+    }
+}
+

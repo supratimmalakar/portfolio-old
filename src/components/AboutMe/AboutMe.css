@@ -1,0 +1,172 @@
+.about-me-container {
+    color: white;
+    background-color: black;
+    border: 1px solid rgba(0,0,0,0);
+    height: 82vh;
+}
+
+.about-me-heading {
+    text-align: left;
+    border-bottom: 0.5vh solid white;
+    width: fit-content;
+    text-transform: uppercase;
+    font-size: 3vw;
+    font-family: helvectica;
+    margin: 5vh 2vw;
+}
+
+.about-main {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-cv-btn {
+    height: 6vh;
+    width: 12vw;
+    margin: 3vh 0;
+    font-family: helvectica;
+    font-size: 1.2vw;
+    color: white;
+    text-transform: uppercase;
+    outline: none;
+    background-color: blue;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.2s;
+}
+
+.about-cv-btn:hover {
+    color: blue;
+    background: white;
+}
+
+.about-description {
+    flex: 1;
+    margin-left: 2vw;
+    font-size: 1.3vw;
+    font-family: helvectica;
+    text-align: left;
+
+}
+
+.about-description p {
+    width: 40vw;
+}
+
+.about-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-icons {
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 7vw;
+}
+
+.icon-containers {
+    background-color: white;
+    border-radius: 50%;
+    width: 6.5vw;
+    height: 6.5vw;
+    margin: 0.3vw 1.2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.abt-icon {
+    width: 5vw;
+}
+
+.icon-div {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+
+.icon-description {
+    margin-top: 5vh;
+    font-family: helvectica;
+    width: fit-content;
+    font-size: 2vw;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1024px) {
+    .about-main {
+        flex-direction: column;
+    }
+
+    .about-description {
+        width: 80vw;
+        margin-left: 4vw;
+        margin-top: 4vw;
+        font-size: 2.8vw;
+        width: 80vw;
+    }
+
+    .about-description p {
+        width: 80vw;
+        margin-right: 0;
+    }
+
+    .about-cv-btn {
+        font-size: 1.8vw;
+        width: 20vw;
+        height: 4vh;
+        letter-spacing: 0.2vw;
+        height: 4vh; 
+    }
+
+    .about-me-heading {
+        margin-left: 4vw;
+    }
+
+    .about-icons {
+        width: 90vw;
+        padding-right: 0;
+        margin-top: 3vh;
+    }
+
+    .icon-containers {
+        width: 10vw;
+        height: 10vw;
+        margin: 0.6vw 1.8vw;
+    }
+
+    .abt-icon {
+        width: 7vw;
+    }
+
+    .icon-description {
+        font-size: 4vw;
+        margin-top: 0;
+    }
+
+    .about-cv-btn {
+        min-height: 40px;
+    }
+}
+
+@media screen and (max-width: 414px) and (min-height : 800px) {
+    .about-description p {
+        /* min-height: 300px;
+        max-height: 520px; */
+        font-size: 3.5vw;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .about-description p {
+        /* min-height: 300px; */
+        font-size: 3.2vw;
+    }
+
+    .about-me-heading {
+        font-size: 6vw;
+    }
+}
