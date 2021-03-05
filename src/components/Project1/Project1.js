@@ -12,7 +12,7 @@ export default function Project1() {
          <div className="todo-container">
             <img className="todo-ss" src={todoSS}/>
             <div className="project-text-div">
-            <h2>Todo App</h2>
+            <h2 className="todo-app-heading">Todo App</h2>
             <p>
                 This Todo App is one of the web apps that I've built while I was bored in an online class.
                 So, this app basically helps a user to manage his/her tasks or 'todos'. A user may add their 
