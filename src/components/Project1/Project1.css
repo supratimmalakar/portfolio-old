@@ -59,12 +59,15 @@
     background: white;
 }
 
-.project-text-div h2 {
+.todo-app-heading {
     font-size: 2vw;
     font-family: helvectica;
 }
 
 @media screen and (max-width: 1024px) {
+.todo-app-heading {
+    font-size: 4vw;
+}
 .project1-heading{
     margin-left: 4vw;
 }
@@ -90,10 +93,6 @@
     width: 17vw;
     letter-spacing: 0.6vw;
     height: 4vh;
-}
-
-.project-text-div h2 {
-    font-size: 4vw;
 }
 
 }
@@ -134,7 +133,11 @@
     }
 
 
-    @media screen and (max-width: 414px) {
+@media screen and (max-width: 414px) {
+
+        .todo-app-heading {
+            font-size: 5vw;
+        }
         .project1-heading{
             margin-left: 4vw;
         }
@@ -170,11 +173,8 @@
             font-size: 6vw;
         }
 
-        .project-text-div h2 {
-            font-size: 5vw;
-        }
         
-        }
+}
     
     
     
