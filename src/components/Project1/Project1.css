@@ -65,6 +65,10 @@
 }
 
 @media screen and (max-width: 1024px) {
+    
+.todo-app-heading {
+    font-size: 5vw;
+}
 .project1-heading{
     margin-left: 4vw;
 }
@@ -135,6 +139,10 @@
 
 
     @media screen and (max-width: 414px) {
+        
+        .todo-app-heading {
+            font-size: 5vw;
+        }
         .project1-heading{
             margin-left: 4vw;
         }
