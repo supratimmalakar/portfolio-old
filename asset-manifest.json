@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.93daefd8.chunk.css",
+    "main.js": "/portfolio/static/js/main.91a0ec8a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.91a0ec8a.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.a253efc1.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.a253efc1.js.map",
+    "static/js/2.f86cc396.chunk.js": "/portfolio/static/js/2.f86cc396.chunk.js",
+    "static/js/2.f86cc396.chunk.js.map": "/portfolio/static/js/2.f86cc396.chunk.js.map",
+    "static/js/3.4542a197.chunk.js": "/portfolio/static/js/3.4542a197.chunk.js",
+    "static/js/3.4542a197.chunk.js.map": "/portfolio/static/js/3.4542a197.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.93daefd8.chunk.css.map": "/portfolio/static/css/main.93daefd8.chunk.css.map",
+    "static/js/2.f86cc396.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f86cc396.chunk.js.LICENSE.txt",
+    "static/media/Elon.f235f363.png": "/portfolio/static/media/Elon.f235f363.png",
+    "static/media/App.css": "/portfolio/static/media/HelveticaNeue-Regular.f0cf2111.otf",
+    "static/media/Todoss.7ea4d4b2.png": "/portfolio/static/media/Todoss.7ea4d4b2.png",
+    "static/media/bg.766e8708.png": "/portfolio/static/media/bg.766e8708.png",
+    "static/media/c++.0507c6e2.png": "/portfolio/static/media/c++.0507c6e2.png",
+    "static/media/css.dfd6473c.png": "/portfolio/static/media/css.dfd6473c.png",
+    "static/media/dp.a1af2282.jpg": "/portfolio/static/media/dp.a1af2282.jpg",
+    "static/media/guide.3addfc75.png": "/portfolio/static/media/guide.3addfc75.png",
+    "static/media/html.50fac1c7.png": "/portfolio/static/media/html.50fac1c7.png",
+    "static/media/jojo.a9aaa80d.png": "/portfolio/static/media/jojo.a9aaa80d.png",
+    "static/media/js.c41d931d.png": "/portfolio/static/media/js.c41d931d.png",
+    "static/media/python.6efa318c.png": "/portfolio/static/media/python.6efa318c.png",
+    "static/media/react.05e48353.png": "/portfolio/static/media/react.05e48353.png",
+    "static/media/redux.03c21e49.png": "/portfolio/static/media/redux.03c21e49.png",
+    "static/media/sql.524255b2.png": "/portfolio/static/media/sql.524255b2.png",
+    "static/media/superx.903e10f4.png": "/portfolio/static/media/superx.903e10f4.png",
+    "static/media/treeview.2c1fa0d1.png": "/portfolio/static/media/treeview.2c1fa0d1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a253efc1.js",
+    "static/js/2.f86cc396.chunk.js",
+    "static/css/main.93daefd8.chunk.css",
+    "static/js/main.91a0ec8a.chunk.js"
+  ]
+}
